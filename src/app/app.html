@@ -1,0 +1,44 @@
+<ion-menu [content]="mainContent">
+  <ion-content id="side-menu21">
+    <ion-list id="mZU-list2">
+      <ion-item-sliding>
+        <ion-item color="positive" id="mZU-list-item1">
+          <ion-avatar item-left>
+            <img src="assets/img/OwCPHVDTDS7KRJF9gbYW_Zinedine-Zidane-014.jpg" />
+          </ion-avatar>
+          <h2>
+            Zinedine Zidane
+          </h2>
+        </ion-item>
+        <ion-item-options side="left">
+          <button ion-button color="positive"></button>
+          <button ion-button color="positive"></button>
+        </ion-item-options>
+      </ion-item-sliding>
+    </ion-list>
+    <ion-list id="mZU-list3">
+      <ion-item color="positive" menuClose="" on-click="goToHome()" id="mZU-list-item18">
+        <ion-icon name="home" item-left></ion-icon>
+        Home
+      </ion-item>
+      <ion-item color="positive" menuClose="" on-click="goToProfil({})" id="mZU-list-item9">
+        <ion-icon name="person" item-left></ion-icon>
+        Profil
+      </ion-item>
+      <ion-item color="positive" menuClose="" on-click="goToDiscussion()" id="mZU-list-item22">
+        <ion-icon name="chatbubbles" item-left></ion-icon>
+        Messenger
+      </ion-item>
+      <ion-item color="positive" menuClose="" on-click="goToSelectYourApps()" id="mZU-list-item10">
+        <ion-icon name="cloud" item-left></ion-icon>
+        Select your app
+      </ion-item>
+      <ion-item color="positive" menuClose="" on-click="goToSettings()" id="mZU-list-item11">
+        <ion-icon name="settings" item-left></ion-icon>
+        Settings
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-menu>
+
+<ion-nav #mainContent [root]="rootPage"></ion-nav>

@@ -1,0 +1,8 @@
+{
+  "name": "mzu",
+  "app_id": "04daae51",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
